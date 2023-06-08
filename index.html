@@ -32,7 +32,11 @@
     <!-- Шапка сайту -->
     <header class="header" id="header">
       <div class="container header__container">
-        <a class="logo" href="./index.html" aria-label="Логотип сайта BarberShop">
+        <a
+          class="logo"
+          href="./index.html"
+          aria-label="Логотип сайта BarberShop"
+        >
           <img
             class="logo__img"
             src="./images/icons/logo.svg"
@@ -45,24 +49,36 @@
         <nav class="navigation">
           <ul class="navigation__list list">
             <li class="navigation__item">
-              <a class="link navigation__link navigation__link--current" href="#about">О нас</a>
+              <a
+                class="link navigation__link navigation__link--current"
+                href="#about"
+                >About</a
+              >
             </li>
             <li class="navigation__item">
-              <a class="link navigation__link" href="#price">Услуги и цены</a>
+              <a class="link navigation__link" href="#price"
+                >Services and prices</a
+              >
             </li>
             <li class="navigation__item">
-              <a class="link navigation__link" href="#team">Мастера</a>
+              <a class="link navigation__link" href="#team">Barbers</a>
             </li>
             <li class="navigation__item">
-              <a class="link navigation__link" href="#contacts">Контакты</a>
+              <a class="link navigation__link" href="#contacts">Contacts</a>
             </li>
           </ul>
         </nav>
 
         <div class="header__gruop">
-          <a class="link header__phone" href="tel:380441111111">+38 044 111 11 11</a>
-          <button class="btn btn--mode-dark header__btn" type="button" data-modal-open>
-            онлайн-запись
+          <a class="link header__phone" href="tel:380441111111"
+            >+38 044 111 11 11</a
+          >
+          <button
+            class="btn btn--mode-dark header__btn"
+            type="button"
+            data-modal-open
+          >
+            Online-booking
           </button>
 
           <div class="backdrop is-hidden" data-modal>
@@ -80,10 +96,10 @@
                 </svg>
               </button>
 
-              <strong class="modal-title">Оставьте заявку на стрижку</strong>
+              <strong class="modal-title">Leave your order here</strong>
               <form class="modal-form">
                 <label class="modal-form__group">
-                  <span class="modal-form__label">Имя</span>
+                  <span class="modal-form__label">Name</span>
                   <input
                     class="modal-form__input"
                     type="text"
@@ -93,13 +109,23 @@
                     required
                   />
                   <span class="alert alert--warning">
-                    Имя должно состоять минимум из 3 символов
+                    Name shoudl consist at least with three letters
                   </span>
-                  <svg class="alert-icon alert-icon--warning" width="18" height="18">
+                  <svg
+                    class="alert-icon alert-icon--warning"
+                    width="18"
+                    height="18"
+                  >
                     <use href="./images/form-sprite.svg#icon-warning"></use>
                   </svg>
-                  <span class="alert alert--error"> Вы ввели не корректные данные </span>
-                  <svg class="alert-icon alert-icon--error" width="18" height="18">
+                  <span class="alert alert--error">
+                    You eneterd incorrect data
+                  </span>
+                  <svg
+                    class="alert-icon alert-icon--error"
+                    width="18"
+                    height="18"
+                  >
                     <use href="./images/form-sprite.svg#icon-error"></use>
                   </svg>
                   <svg class="modal-form__icon" width="20" height="20">
@@ -108,7 +134,7 @@
                 </label>
 
                 <label class="modal-form__group">
-                  <span class="modal-form__label">Телефон</span>
+                  <span class="modal-form__label">Phone</span>
                   <input
                     class="modal-form__input"
                     type="phone"
@@ -117,13 +143,23 @@
                     required
                   />
                   <span class="alert alert--warning">
-                    Введите номер телефона в формате +38 099 123 45 67
+                    Enter your phone number +38 099 123 45 67
                   </span>
-                  <svg class="alert-icon alert-icon--warning" width="15" height="15">
+                  <svg
+                    class="alert-icon alert-icon--warning"
+                    width="15"
+                    height="15"
+                  >
                     <use href="./images/form-sprite.svg#icon-warning"></use>
                   </svg>
-                  <span class="alert alert--error"> Вы ввели не корректные данные </span>
-                  <svg class="alert-icon alert-icon--error" width="15" height="15">
+                  <span class="alert alert--error">
+                    You eneterd incorrect data
+                  </span>
+                  <svg
+                    class="alert-icon alert-icon--error"
+                    width="15"
+                    height="15"
+                  >
                     <use href="./images/form-sprite.svg#icon-error"></use>
                   </svg>
                   <svg class="modal-form__icon" width="20" height="20">
@@ -132,7 +168,7 @@
                 </label>
 
                 <label class="modal-form__group">
-                  <span class="modal-form__label">Почта</span>
+                  <span class="modal-form__label">E-mail</span>
                   <input
                     class="modal-form__input"
                     type="mail"
@@ -141,13 +177,23 @@
                     required
                   />
                   <span class="alert alert--warning">
-                    Введите почту в формате example@mail.com
+                    Enter your phone example@mail.com
                   </span>
-                  <svg class="alert-icon alert-icon--warning" width="15" height="15">
+                  <svg
+                    class="alert-icon alert-icon--warning"
+                    width="15"
+                    height="15"
+                  >
                     <use href="./images/form-sprite.svg#icon-warning"></use>
                   </svg>
-                  <span class="alert alert--error"> Вы ввели не корректные данные </span>
-                  <svg class="alert-icon alert-icon--error" width="15" height="15">
+                  <span class="alert alert--error">
+                    You eneterd incorrect data
+                  </span>
+                  <svg
+                    class="alert-icon alert-icon--error"
+                    width="15"
+                    height="15"
+                  >
                     <use href="./images/form-sprite.svg#icon-error"></use>
                   </svg>
                   <svg class="modal-form__icon" width="20" height="20">
@@ -155,7 +201,7 @@
                   </svg>
                 </label>
 
-                <p class="modal-form__subtitle">Виберите форму оплаты</p>
+                <p class="modal-form__subtitle">Choose the payment option</p>
                 <div class="modal-form__pay-type">
                   <label class="modal-form__pay-group">
                     <input
@@ -197,14 +243,20 @@
                     aria-checked="false"
                     aria-labelledby="chk1-label"
                   >
-                    <svg class="modal-form__custom-checkbox-icon" width="18" height="18">
+                    <svg
+                      class="modal-form__custom-checkbox-icon"
+                      width="18"
+                      height="18"
+                    >
                       <use href="./images/form-sprite.svg#icon-check"></use>
                     </svg>
                   </span>
                   <span class="modal-form__policy-desc"
-                    >Соглашаюсь с
-                    <a class="modal-form__policy-link" href="">Политикой использования</a>
-                    данных</span
+                    >Agree with
+                    <a class="modal-form__policy-link" href=""
+                      >Privacy Policy</a
+                    >
+                    of data</span
                   >
                 </label>
 
@@ -214,7 +266,7 @@
                   disabled="false"
                   data-submit-btn
                 >
-                  Отправить
+                  Send
                 </button>
               </form>
             </div>
@@ -251,10 +303,13 @@
             </ul>
           </div>
           <div class="hero__group">
-            <p class="uppertitle uppertitle--mode-dark" lang="en">A hair salon for men in Kyiv</p>
+            <p class="uppertitle uppertitle--mode-dark" lang="en">
+              A hair salon for men in Kyiv
+            </p>
             <h1 class="main-title" lang="en">BarberShop</h1>
             <p class="subtitle subtitle--mode-dark">
-              Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
+              We are experts in trendy men’s haircuts. We work quickly,
+              carefully and with style.
             </p>
           </div>
           <div class="slider">
@@ -265,10 +320,12 @@
             </ul>
             <ul class="slider__controls list">
               <li class="slider__item-controls">
-                <button class="slider__btn slider__btn--disable" type="button">Назад</button>
+                <button class="slider__btn slider__btn--disable" type="button">
+                  Back
+                </button>
               </li>
               <li class="slider__item-controls">
-                <button class="slider__btn" type="button">Вперед</button>
+                <button class="slider__btn" type="button">Forword</button>
               </li>
             </ul>
           </div>
@@ -299,58 +356,76 @@
           </ul>
           <div class="about__group" data-aos="fade-left">
             <p class="uppertitle uppertitle--mode-light">О НАС</p>
-            <h2 class="section-title section-title--mode-light">Лучший Барбершоп твоего города</h2>
+            <h2 class="section-title section-title--mode-light">
+              Best Barbershop in your city
+            </h2>
             <p class="subtitle subtitle--mode-light about__subtitle">
-              Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
+              If you want to add more confidence to your image, you should
+              definitely visit us.
             </p>
             <p class="description about__description">
-              Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И
-              когда ты попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы
-              команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы
-              усовершенствовать каждого, кто к нам приходит!
+              We are a team that never stops at what has been achieved and are
+              thirsty for changes. And when you fall into the hands of our
+              master, you will never be the same again. We are a team that is
+              always "on the same wave" with clients. Therefore, we are always
+              ready to improve everyone who comes to us!
             </p>
-            <button class="btn btn--mode-light" type="button">онлайн-запись</button>
+            <button class="btn btn--mode-light" type="button">
+              Online-booking
+            </button>
           </div>
         </div>
       </section>
       <!-- Секція Послуги та ціни -->
       <section class="price section" id="price">
         <div class="container">
-          <p class="uppertitle uppertitle--mode-dark">Проведи время в компании лучших мастеров</p>
-          <h2 class="section-title section-title--mode-dark">Услуги и цены</h2>
+          <p class="uppertitle uppertitle--mode-dark">
+            Spend your time with the best masters
+          </p>
+          <h2 class="section-title section-title--mode-dark">
+            Services and prices
+          </h2>
           <ul class="price-list list">
             <li class="price-item">
               <ul class="price-inner-list list">
                 <li class="price-inner-item">
-                  <span>Мужская стрижка</span> <span>от 300 грн.</span>
+                  <span>Men’s haircut</span> <span>from 300 uah.</span>
                 </li>
                 <li class="price-inner-item">
-                  <span>Стрижка бороды</span> <span>от 200 грн.</span>
+                  <span>Beard trim</span> <span>from 300 uah.</span>
                 </li>
-                <li class="price-inner-item"><span>Стрижка усов</span> <span>от 200 грн.</span></li>
                 <li class="price-inner-item">
-                  <span>Бритье опасной бритвой</span> <span>от 200 грн.</span>
+                  <span>Mustache trim</span> <span>from 300 uah.</span>
+                </li>
+                <li class="price-inner-item">
+                  <span>Straight razor shave</span> <span>from 300 uah.</span>
                 </li>
               </ul>
             </li>
             <li class="price-item">
               <ul class="price-inner-list list">
                 <li class="price-inner-item">
-                  <span>Cтрижка у стажера</span> <span>от 50 грн.</span>
+                  <span>Trainee’s haircut</span>
+                  <span>from 50 uah.</span>
                 </li>
                 <li class="price-inner-item">
-                  <span>Стрижка под насадку</span> <span>от 200 грн.</span>
+                  <span>Haircut under the nozzle</span>
+                  <span>from 200 uah.</span>
                 </li>
                 <li class="price-inner-item">
-                  <span>Детская стрижка (до 12 лет)</span> <span>от 300 грн.</span>
+                  <span>Children’s haircut (0-12 y.o.)</span>
+                  <span>from 300 uah.</span>
                 </li>
                 <li class="price-inner-item">
-                  <span>Камуфлирование седины</span> <span>от 200 грн.</span>
+                  <span>Camouflage of gray hair</span>
+                  <span>from 200 uah.</span>
                 </li>
               </ul>
             </li>
           </ul>
-          <button class="btn btn--mode-dark" type="button">онлайн-запись</button>
+          <button class="btn btn--mode-dark" type="button">
+            Online-booking
+          </button>
         </div>
       </section>
       <!-- Секція Переваги -->
@@ -358,28 +433,40 @@
         <div class="container benefits-container">
           <ul class="benefits-stat list">
             <li class="benefits-stat-item">
-              <p class="benefits-amount">600 <sup class="benefits-amount-decor">+</sup></p>
-              <p class="benefits-text">Довольных клиентов в день</p>
+              <p class="benefits-amount">
+                600 <sup class="benefits-amount-decor">+</sup>
+              </p>
+              <p class="benefits-text">Satisfied customers per day</p>
             </li>
             <li class="benefits-stat-item">
-              <p class="benefits-amount">20 <sup class="benefits-amount-decor">+</sup></p>
-              <p class="benefits-text">Лучших мастеров Киева</p>
+              <p class="benefits-amount">
+                20 <sup class="benefits-amount-decor">+</sup>
+              </p>
+              <p class="benefits-text">Kyiv’s best barbers</p>
             </li>
             <li class="benefits-stat-item">
-              <p class="benefits-amount">50 <sup class="benefits-amount-decor">+</sup></p>
-              <p class="benefits-text">Наград за отличный сервис</p>
+              <p class="benefits-amount">
+                50 <sup class="benefits-amount-decor">+</sup>
+              </p>
+              <p class="benefits-text">Awards for excellent service</p>
             </li>
             <li class="benefits-stat-item">
-              <p class="benefits-amount">100<sup class="benefits-amount-decor">+</sup></p>
-              <p class="benefits-text">Подарков постоянным клиентам</p>
+              <p class="benefits-amount">
+                100<sup class="benefits-amount-decor">+</sup>
+              </p>
+              <p class="benefits-text">Gifts for regular customers</p>
             </li>
           </ul>
           <div class="benefits-group">
-            <p class="uppertitle uppertitle--mode-light">старая традиционная школа</p>
-            <h2 class="section-title section-title--mode-light">Почему приходят именно к нам?</h2>
+            <p class="uppertitle uppertitle--mode-light">
+              Old traditional school
+            </p>
+            <h2 class="section-title section-title--mode-light">
+              Почему приходят именно к нам?
+            </h2>
             <p class="subtitle subtitle--mode-light">
-              О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз
-              прочитать.
+              О нас говорят только хорошее. Но лучше 1 раз увидеть и
+              прочувствовать, чем 10 раз прочитать.
             </p>
           </div>
         </div>
@@ -387,10 +474,16 @@
       <!-- Секція Майстри -->
       <section class="team section" id="team">
         <div class="container">
-          <p class="uppertitle uppertitle--mode-light">для настоящих ценителей атмосферы</p>
+          <p class="uppertitle uppertitle--mode-light">
+            для настоящих ценителей атмосферы
+          </p>
           <h2 class="section-title section-title--mode-light">Наши мастера</h2>
           <ul class="member-list list grid">
-            <li class="member-item grid-item" data-aos="zoom-in-up" data-aos-delay="300">
+            <li
+              class="member-item grid-item"
+              data-aos="zoom-in-up"
+              data-aos-delay="300"
+            >
               <img
                 class="member-img"
                 src="./images/team/member-1.jpg"
@@ -457,7 +550,11 @@
                 </ul>
               </div>
             </li>
-            <li class="member-item grid-item" data-aos="zoom-in-up" data-aos-delay="600">
+            <li
+              class="member-item grid-item"
+              data-aos="zoom-in-up"
+              data-aos-delay="600"
+            >
               <img
                 class="member-img"
                 src="./images/team/member-2.jpg"
@@ -524,7 +621,11 @@
                 </ul>
               </div>
             </li>
-            <li class="member-item grid-item" data-aos="zoom-in-up" data-aos-delay="900">
+            <li
+              class="member-item grid-item"
+              data-aos="zoom-in-up"
+              data-aos-delay="900"
+            >
               <img
                 class="member-img"
                 src="./images/team/member-3.jpg"
@@ -743,7 +844,12 @@
         <div class="container">
           <div class="contacts-left-side">
             <h2 class="section-title">Онлайн-запись</h2>
-            <form class="contact-form" name="contact-form" action="./js/method.js" method="post">
+            <form
+              class="contact-form"
+              name="contact-form"
+              action="./js/method.js"
+              method="post"
+            >
               <div class="form-wrapper">
                 <label class="form-group">
                   <input
@@ -777,7 +883,9 @@
                 ></textarea>
                 <span class="form-label">сообщение</span>
               </label>
-              <button class="btn btn--mode-dark" type="submit">отправить</button>
+              <button class="btn btn--mode-dark" type="submit">
+                отправить
+              </button>
             </form>
           </div>
           <div class="contacts-right-side"></div>
@@ -860,10 +968,14 @@
       </ul>
       <ul class="mobile-menu__contatcts">
         <li class="mobile-menu__item">
-          <a href="tel:+380961111111" class="mobile-menu__link">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="mobile-menu__link"
+            >+38 096 111 11 11</a
+          >
         </li>
         <li class="mobile-menu__item">
-          <a href="mailto:info@devstudio.com" class="mobile-menu__link">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="mobile-menu__link"
+            >info@devstudio.com</a
+          >
         </li>
       </ul>
       <ul class="mobile-menu__socials">
