@@ -1,0 +1,65 @@
+/**
+  |============================
+  | About section
+  |============================
+*/
+
+.about__container {
+  @include mq(tablet) {
+    display: flex;
+  }
+}
+
+.about-list {
+  @include mq(mobile-only) {
+    display: none;
+  }
+
+  @include mq(tablet) {
+    margin-right: 30px;
+  }
+
+  @include mq(desktop) {
+    display: flex;
+    margin-right: 64px;
+  }
+}
+
+.about-list__item {
+  overflow: hidden;
+
+  @include mq(tablet-only) {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  @include mq(desktop) {
+    margin-right: 30px;
+  }
+}
+
+.about-list__img {
+  transition: transform var(--slow-anim);
+}
+
+.about-list__item:hover .about-list__img {
+  transform: scale(1.15);
+}
+
+.about__group {
+  @include mq(tablet) {
+    width: 330px;
+  }
+  @include mq(desktop) {
+    width: 500px;
+  }
+}
+
+.about__subtitle {
+  margin-bottom: 20px;
+}
+
+.about__description {
+  margin-bottom: 40px;
+}
