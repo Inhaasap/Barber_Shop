@@ -1,65 +1,38 @@
-/**
-  |============================
-  | About section
-  |============================
-*/
-
 .about__container {
-  @include mq(tablet) {
-    display: flex;
-  }
+  display: flex;
+  gap: 30px;
 }
 
-.about-list {
-  @include mq(mobile-only) {
-    display: none;
-  }
-
-  @include mq(tablet) {
-    margin-right: 30px;
-  }
-
-  @include mq(desktop) {
-    display: flex;
-    margin-right: 64px;
-  }
+.pic-list {
+  display: flex;
+  gap: 30px;
 }
 
-.about-list__item {
-  overflow: hidden;
-
-  @include mq(tablet-only) {
-    &:not(:last-child) {
-      margin-bottom: 30px;
-    }
-  }
-
-  @include mq(desktop) {
-    margin-right: 30px;
-  }
+.about__wrap {
+  max-width: 470px;
 }
 
-.about-list__img {
-  transition: transform var(--slow-anim);
-}
-
-.about-list__item:hover .about-list__img {
-  transform: scale(1.15);
-}
-
-.about__group {
-  @include mq(tablet) {
-    width: 330px;
-  }
-  @include mq(desktop) {
-    width: 500px;
-  }
-}
-
-.about__subtitle {
+.about__pre-title {
+  color: #303030;
   margin-bottom: 20px;
 }
 
-.about__description {
-  margin-bottom: 40px;
+.about__title {
+  color: var(--second-title-color);
+  margin-bottom: 20px;
+}
+.about__after-title {
+  @include font(18px, 1.67, null, 0.02em);
+  // font-size: 18px;
+  // line-height: 1.67;
+  // letter-spacing: 0.02em;
+  color: #555555;
+  margin-bottom: 20px;
+}
+.about__text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+  margin-bottom: 42px;
 }

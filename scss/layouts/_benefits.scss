@@ -1,67 +1,76 @@
-/**
-  |============================
-  | Benefits section
-  |============================
-*/
 .benefits-container {
   display: flex;
-  justify-content: center;
+  padding-left: 100px;
 }
 
-.benefits-stat {
-  width: 370px;
+.benefits-wrap {
+  max-width: 500px;
+  padding-top: 9px;
+}
+.benefits-list {
   display: flex;
+  width: 370px;
   flex-wrap: wrap;
-  align-items: flex-start;
+  margin-right: 130px;
 }
 
-.benefits-stat-item {
+.benefits-item {
   width: 170px;
-  padding: 20px;
+  height: 133px;
+  padding: 20px 24px;
   background-color: #f7f7f7;
+  &:nth-child(odd) {
+    margin-right: 30px;
+  }
+
+  &:nth-child(even) {
+    margin-top: 30px;
+  }
+  span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+    display: block;
+    margin-bottom: 6px;
+    &::after {
+      content: '+';
+      font-weight: 600;
+      font-size: 16px;
+      line-height: calc(22 / 16);
+      text-align: center;
+      color: var(--accent-color);
+      vertical-align: top;
+    }
+  }
 }
 
-.benefits-stat-item:nth-child(2n) {
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.benefits-amount {
-  position: relative;
-  margin-bottom: 6px;
-
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.05em;
-
-  color: #303030;
-}
-
-.benefits-amount-decor {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.38;
-  text-align: center;
-
-  color: #ff6c00;
-}
-
-.benefits-text {
+.benefits-item-text {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
-  letter-spacing: normal;
   text-align: center;
-
   color: #303030;
 }
+.benefits-pre-title {
+  color: #303030;
+  margin-bottom: 20px;
+}
+.benefits-title {
+  color: #303030;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  &::before {
+    content: '?';
+    transform: rotate(-180deg);
+  }
+}
 
-.benefits-group {
-  width: 500px;
-  margin-left: 130px;
+.benefits-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
 }

@@ -1,22 +1,8 @@
 :root {
-  --main-font: 'Open Sans', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
-
-  /* text colors */
-  --accent-cl: #ff6c00;
-  --main-txt-cl: #555555;
-  --secondary-txt-cl: #ffffff;
-
-  /* background colors */
-  --main-bg-cl: #ffffff;
-  --secondary-bg-cl: #f7f7f7;
-  --dark-bg-cl: #191c26;
-
-  /* grid items */
-  --items: 1;
-  --indent: 30px;
-
-  /* animations */
-  --slow-anim: 700ms ease;
-  --fast-anim: 400ms ease-in-out;
+  --main-title-color: #ffffff;
+  --second-title-color: #303030;
+  --main-btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --accent-color: #ff6c00;
+  --gradient: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2));
 }

@@ -1,34 +1,26 @@
-// utils
 @import './utils/vars';
-@import './utils/visually-hidden';
+
+@import './base/reset';
 @import './utils/placeholders';
 @import './utils/mixins';
-
-// base styles
 @import './base/common';
-@import './base/reset';
-@import './base/js-selectors';
-@import './base/animations';
-@import './base/container';
-@import './base/card-set';
+@import './utils/hidden';
 
-// components
-@import './components/button';
-@import './components/socials';
-@import './components/slider/module';
-@import './components/slide-top-btn';
-@import './components/chat-menu';
-@import './components/modal-form';
-@import './components/contacts-form';
-@import './components/mobile-menu';
+@import './components/container';
+@import './components/title';
+@import './components/pre-title';
+@import './components/btn';
+@import './components/modal';
 
-// layuots
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/about';
-@import './layouts/price';
+@import './layouts/prices';
 @import './layouts/benefits';
-@import './layouts/team';
+@import './layouts/barbers';
+@import './layouts/test';
 @import './layouts/gallery';
+@import './layouts/contact-wrap';
+@import './layouts/online';
 @import './layouts/contacts';
 @import './layouts/footer';
