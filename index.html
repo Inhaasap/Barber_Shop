@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barber Shop</title>
+
     <!-- Project fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,7 +30,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body id="body">
-    <!-- Шапка сайту -->
+    <!-- Header -->
     <header class="header" id="header">
       <div class="container header__container">
         <a
@@ -40,7 +41,7 @@
           <img
             class="logo__img"
             src="./images/icons/logo.svg"
-            alt="Логитип"
+            alt="logo"
             width="69"
             height="56"
           />
@@ -81,6 +82,7 @@
             Online-booking
           </button>
 
+          <!-- modal window -->
           <div class="backdrop is-hidden" data-modal>
             <div class="modal-wrapper">
               <button class="modal-btn" data-modal-close>
@@ -331,7 +333,8 @@
           </div>
         </div>
       </section>
-      <!-- Секція Про нас -->
+
+      <!-- About-->
       <section class="about section" id="about" style="height: 300vh">
         <div class="container about__container">
           <ul class="about-list list">
@@ -376,7 +379,8 @@
           </div>
         </div>
       </section>
-      <!-- Секція Послуги та ціни -->
+
+      <!-- Services and prices -->
       <section class="price section" id="price">
         <div class="container">
           <p class="uppertitle uppertitle--mode-dark">
@@ -428,7 +432,8 @@
           </button>
         </div>
       </section>
-      <!-- Секція Переваги -->
+
+      <!-- Benefits -->
       <section class="benefits section">
         <div class="container benefits-container">
           <ul class="benefits-stat list">
@@ -695,7 +700,8 @@
           </ul>
         </div>
       </section>
-      <!-- Секція Галерея -->
+
+      <!-- Gallery -->
       <section class="gallery section">
         <div class="container">
           <p class="uppertitle uppertitle--mode-light gallery-uppertitle">
@@ -839,9 +845,10 @@
           </ul>
         </div>
       </section>
-      <!-- Секція Контакти -->
+      <!-- Contacts -->
       <section class="contacts section" id="contacts">
         <div class="container">
+          !-- left-side secition -->
           <div class="contacts-left-side">
             <h2 class="section-title">Online-booking</h2>
             <form
@@ -886,7 +893,34 @@
               <button class="btn btn--mode-dark" type="submit">send</button>
             </form>
           </div>
-          <div class="contacts-right-side"></div>
+          <!-- right-side secition -->
+          <div class="contacts-right-side">
+            <h2 class="contacts-title section-title">Contacts</h2>
+            <address class="contacts-address">
+              <a
+                class="contacts-map-link link"
+                href="https://goo.gl/maps/m49CoXVLUsWhngmK6"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >st. Vasilkivska, 7A<br />
+                Kyiv, 08132</a
+              >
+              <ul class="contacts-list list">
+                <li class="contacts-item">
+                  <a href="tel:+380441111111" class="contacts-link link"
+                    >+38 044 111 11 11</a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <a href="mailto:barbershop@email.com" class="contacts-link"
+                    >barbershop@email.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <p class="contacts-subtitle">Working hours</p>
+            <p class="contacts-schedule">Every day from 9:00 to 22:00</p>
+          </div>
         </div>
       </section>
     </main>
